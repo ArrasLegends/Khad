@@ -10,13 +10,9 @@
   </head>
   <body>
     <script>
-      window.addEventListener('load', () => {
-        setInterval(() => {
-          const sound = document.getElementById('sound');
-          sound.currentTime = 0;
-          sound.play();
+        setTimeout(() => {
+          document.getElementById('sound').play();
         }, 5000);
-      });
     </script>
   </body>
 </html>
